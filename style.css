@@ -1,0 +1,643 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  gap: 4rem;
+}
+.header li{
+  width: 6rem;
+}
+.logo {
+  width: 117px;
+  height: 34.41px;
+  opacity: 1;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.nav-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-element li {
+  font-family: "Plus Jakarta Sans";
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+
+  margin: 0 15px; /* Add spacing between nav items */
+}
+
+.nav-element a {
+  text-decoration: none;
+  color: #000;
+}
+.disgien {
+  width: 383.17px;
+  height: 551.56px;
+  position: relative;
+  left: 5rem;
+}
+.download {
+  background: #000000;
+  color: #ffffff;
+  width: 180px;
+  height: 60px;
+  border-radius: 4px 0 0 0;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Add pointer cursor on hover */
+  margin-left: 17rem;
+}
+
+.download:hover {
+  background: #333333; /* Optional: Add a hover effect */
+}
+#home_color {
+  color: #ff5555;
+}
+.head_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  padding-top: 8rem;
+}
+.content_flex {
+  padding-left: 7rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_h1 {
+  width: 618px;
+  height: 128px;
+  font-weight: 700;
+  font-size: 64px;
+  font-family: "Inter";
+  position: relative; /* Ensure content can be positioned relative to this container */
+}
+.content_2 {
+  padding: 2rem;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Inter";}
+.btn_flex {
+  margin-left: -17rem;
+  gap: 2rem;
+  margin-top: 2rem;
+  display: flex;
+
+  align-items: center;
+}
+
+.download {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  text-decoration: none;
+}
+.GET_STARTED {
+  background: #000000;
+  color: #ffffff;
+  width: 180px;
+  height: 60px;
+  border-radius: 4px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Add pointer cursor on hover */
+  margin-left: 17rem;
+}
+.GET_STARTED img {
+  width: 31px;
+  height: 25px;
+}
+.watch_video {
+  cursor: pointer;
+  gap: 2rem;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.arrow_start {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.download:hover {
+  background-color: #333;
+  cursor: pointer;
+}
+
+.disgien {
+  width: 383.17px;
+  height: 551.56px;
+  position: relative;
+}
+
+.ecalips_1 {
+  position: absolute;
+  top: -91px;
+  left: 25.53px;
+  width: 383.17px;
+  height: 551.56px;
+  border: 1px solid #000000;
+  border-radius: 50%; /* This creates the ellipse shape */
+  transform: rotate(147deg); /* Rotates the ellipse */
+  opacity: 1; /* Set the opacity to 0 for initial invisibility */
+}
+
+.ecalips_2 {
+  position: absolute;
+  top: -91px;
+  left: -6.73px;
+  width: 383.17px;
+  height: 551.56px;
+  border: 1px solid #000000;
+  border-radius: 50%; /* This creates the ellipse shape */
+  transform: rotate(147deg); /* Rotates the ellipse */
+  opacity: 1; /* Set the opacity to 0 for initial invisibility */
+}
+
+
+.ecalips_3 {
+    position: absolute;
+    top: -91px;
+    left: -39px;
+    width: 383.17px;
+    height: 551.56px;
+    border: 1px solid #000000;
+    border-radius: 50%; /* This creates the ellipse shape */
+    transform: rotate(147deg); /* Rotates the ellipse */
+    opacity: 1; /* Set the opacity to 0 for initial invisibility */
+  }
+  
+ 
+.mocup_image {
+  border-radius: 5px;
+  position: absolute;
+  left: 6.5rem;
+  top: 22px;
+}
+.mocup_1{
+  position: absolute;
+    left: 5rem;
+
+
+}
+.mocup_2{
+  position: absolute;
+    left: -1rem;
+    top: -25px;
+}
+.mocup_image_2{
+  border-radius: 5px;
+  position: absolute;
+  left: 0.5rem;
+  top: -4px;
+} 
+.mocup_3{
+  position: absolute;
+    left: -7rem;
+    top: -105px;
+}
+.mocup_image_3{
+  border-radius: 5px;
+  position: absolute;
+  left: -5.5rem;
+  top: -84px;
+} 
+
+
+
+.second_content{
+  padding-top: 60px;
+  display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 15rem;
+    position: relative;
+  
+}
+
+.feture{
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+   font-weight: 400;
+  font-size: 21px;
+  font-family: "Inter";
+  color:#FF5555;
+  
+}
+
+.premium{
+font-weight: bold;
+font-family: "Inter";
+font-size: 48px;
+ text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.text_data{
+  padding: 17px;
+}
+.text_data img{
+  border: 1px solid black;
+  height: 20px;
+}
+.text_data span{
+  font-weight: 400;
+  font-family: "Inter";
+  padding: 2rem;
+  color: rgba(41, 39, 39, 0.725);
+}
+.text1{
+  text-shadow: 2px solid black;
+  font-weight: 1000;
+  font-family: "Inter";
+  padding-bottom: 0.5rem;
+}
+.mocup_4{
+  position: absolute;
+    left: 4rem;
+    top: -56px;
+}
+
+
+
+.mocup_image4 {
+border-radius: 5px;
+    position: absolute;
+    left: 4.8rem;
+    top: -46px;
+    border-radius: 30px;
+}
+
+.third_content {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 4rem;
+  position: relative;
+  flex-direction: row-reverse;
+}
+
+.img2{
+  border: 1px solid black;
+  background-color: #ff5555;
+}
+.text_data span{
+  padding: 5px;
+  font-weight: 400;
+  font-family: "Inter";
+}
+.text2{
+  font-weight: 1000;
+  font-family: "Inter";
+  display: flex;
+    padding-bottom: 2rem;
+    gap: 2rem;
+padding-bottom: 2rem;
+}
+.Arcu{
+  font-weight: 400;
+  font-family: "Inter";
+  padding: 2rem;
+  color: rgba(41, 39, 39, 0.725);
+}
+
+.fourth_content{
+  padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 12rem;
+    position: relative;
+}
+
+
+
+.fifth_content{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.fifth_content h3{
+  font-weight: 400;
+  font-family: "Inter";
+  font-size: 20px;
+  letter-spacing: 16%;
+}
+.fifth_content h4{
+  font-weight: 900;
+  font-family: "Inter";
+}
+
+.sixth_content{
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 12rem;
+  position: relative;
+}
+.text3{
+  width: 20rem;
+  font-weight: 1000;
+    font-family: "Inter";
+    display: flex;
+    padding-bottom: 2rem;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+.text3 img{
+  width: 2rem;
+  height: 2rem;
+}
+.img1{
+  top: -6rem;
+    position: relative;
+    left: -7rem;
+}
+.img2nd{
+  top: -27rem;
+    position: relative;
+    left: 11rem;
+}
+
+.img3{
+  top: -28rem;
+  position: relative;
+  left: -7rem;}
+
+
+  .img4{
+    top: -48rem;
+    position: relative;
+    left: 18rem}
+
+    .img5{
+      top: -82rem;
+      position: relative;
+      left: -1rem;
+    }
+.seventh_content{    
+
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 12rem;
+  position: relative;
+}
+.FAQ{
+  font-weight: 700;
+  color: #ff5555;
+  font-family: "Inter";
+  font-size: 11px;
+}
+
+.seaventh_heading{
+  display: block;
+    width: 19rem;
+    font-weight: 1000;
+    font-family: "Inter";
+    font-size: 2rem;
+}
+.box{
+  display: flex;
+  gap: 21px;
+}
+
+.Arcu {
+  padding: 5px;
+  width: 23rem;
+}
+.back_color{
+  
+  background-color: #FF5555;
+}
+.back_color h3{
+  font-weight: 1000;
+    font-family: "Inter";
+    
+} 
+.box_border{
+  padding: 4px 61px;
+
+  border-radius: 2px;
+}
+.frame img{
+  display: flex;
+  justify-content: center;
+  height: 508px;
+  width: 1090px;
+}
+.frame {
+  padding: 10rem;
+  display: flex;
+  justify-content: center;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  padding-right: 6rem;
+}
+
+.links{
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.links a{
+  padding-bottom: 26px ;
+}
+.basic{
+  height: 1rem;
+  width: 1rem;
+}
+.information p{
+  padding: 6px 0;
+}
+footer div{
+  cursor: pointer;
+  font-family: "Inter";
+
+}
+footer p{
+  cursor: pointer;
+  font-family: "Inter";
+  padding: 10px 0;
+
+}
+.group1{
+  position: absolute;
+    left: 20rem;
+
+}.group2{
+top: 16rem;
+position: absolute;
+left: -7rem;
+}
+.group3{
+  top: -3rem;
+    position: absolute;
+    left: -6rem;
+  }
+  .group4{
+    top: 3rem;
+      position: absolute;
+      left: -6rem;
+    }
+  .Copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Inter";
+    padding: 20px;
+  }
+    
+@media screen and (max-width: 1085px){
+
+  .download {
+    
+    margin-left: 0rem;
+  }
+  .group1{
+    display: none;
+  
+  }
+  .logo{
+    height: 10px;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 1rem;
+    padding-left: 27rem;
+}
+.logo img {
+  /* height: 2rem; */
+  width: 18%;
+  height: auto;
+  top: 2rem;
+  left: 2rem;
+  position: absolute;
+}
+
+} 
+@media screen and (max-width: 830px){
+  .head_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20rem;
+
+  }
+  .second_content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20rem;
+  }
+  .third_content
+  { display: flex;
+    flex-direction:  column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20rem;
+
+  }
+  .fourth_content {
+    display: flex;
+    flex-direction:  column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20rem;
+  }
+  .fifth_content{
+    width: 10rem;
+        margin-left: 18rem;
+        padding-bottom: 0;
+  }
+  .sixth_content{
+
+  
+display: flex;
+    flex-direction:  column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20rem;
+  }
+  .seventh_content  .box{
+    display: flex;
+    flex-direction:  column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24rem;
+  }
+  .frame img {
+  
+    height: 420px;
+    width: 46rem;
+    margin-left: 24rem;
+}
+footer {
+  
+  gap: 3rem;
+  padding-left: 24rem;
+}
+.FAQS
+{
+  margin: 20px;
+padding-left: 26rem;
+}
+.text_data span,.Arcu {
+  font-size: 2rem;
+  padding: 5px;
+  font-weight: 400;
+  font-family: "Inter";
+  display: block;
+  width: 37rem;
+}.content_2 {
+font-size: 28px;}
+}
